@@ -25,4 +25,6 @@ test('component renders the users', () => {
 
     expect(li.text()).toBe(wrapper.props('users')[0])
 
+    // (Link to better solution)[https://github.com/vueschool/testing-vue-components/commit/b3a87086d4cab8656d7e444a5d5b8fec653dd704]
+
 })
